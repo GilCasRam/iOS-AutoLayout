@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46947E17261BCA3D0034C700 /* ModifyConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46947E16261BCA3D0034C700 /* ModifyConstraintsViewController.swift */; };
+		46947E1F261BCFB20034C700 /* CreateConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46947E1E261BCFB20034C700 /* CreateConstraintsViewController.swift */; };
 		46F4E1C1261BA03B00D96F94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F4E1C0261BA03B00D96F94 /* AppDelegate.swift */; };
 		46F4E1C3261BA03B00D96F94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F4E1C2261BA03B00D96F94 /* SceneDelegate.swift */; };
 		46F4E1C5261BA03B00D96F94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F4E1C4261BA03B00D96F94 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46947E16261BCA3D0034C700 /* ModifyConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyConstraintsViewController.swift; sourceTree = "<group>"; };
+		46947E1E261BCFB20034C700 /* CreateConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateConstraintsViewController.swift; sourceTree = "<group>"; };
 		46F4E1BD261BA03B00D96F94 /* AvancedAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvancedAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F4E1C0261BA03B00D96F94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46F4E1C2261BA03B00D96F94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				46F4E1C0261BA03B00D96F94 /* AppDelegate.swift */,
 				46F4E1C2261BA03B00D96F94 /* SceneDelegate.swift */,
 				46F4E1C4261BA03B00D96F94 /* ViewController.swift */,
+				46947E16261BCA3D0034C700 /* ModifyConstraintsViewController.swift */,
+				46947E1E261BCFB20034C700 /* CreateConstraintsViewController.swift */,
 				46F4E1C6261BA03B00D96F94 /* Main.storyboard */,
 				46F4E1C9261BA03F00D96F94 /* Assets.xcassets */,
 				46F4E1CB261BA03F00D96F94 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46947E1F261BCFB20034C700 /* CreateConstraintsViewController.swift in Sources */,
 				46F4E1C5261BA03B00D96F94 /* ViewController.swift in Sources */,
 				46F4E1C1261BA03B00D96F94 /* AppDelegate.swift in Sources */,
 				46F4E1C3261BA03B00D96F94 /* SceneDelegate.swift in Sources */,
+				46947E17261BCA3D0034C700 /* ModifyConstraintsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
